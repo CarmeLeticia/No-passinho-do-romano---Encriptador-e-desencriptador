@@ -5,48 +5,135 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifra César</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-  <title>Cifra César</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/593e97b0f2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!--Navbar-->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="./img/culture.png" alt="" class="  img-logo img-fluid  rounded float-start" img-thumbnail> </a>
+      <a class="navbar-brand" href="https://www.flaticon.com/free-icons/culture" title="culture icons" target="blank"> <img src="./img/culture.png" alt="" class="  img-logo img-fluid  rounded float-start " img-thumbnail> </a>
 
       <!--<a href="https://www.flaticon.com/free-icons/culture" title="culture icons">Culture icons created by Freepik - Flaticon</a>-->
 
       <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
+          <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#"><i class="fa-brands fa-github fa-lg"></i></a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <div class="container">
-    <div class="form-group shadow-textarea">
-      <label for="exampleFormControlTextarea2">Escreva sua mensagem</label>
-      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+  <!--Conteúdo-->
+
+  <div class="container ">
+    <div class="row">
+      <div class="col border-0 ">
+        <form class="form-floating ">
+          <input type="email" class="form-control border-0 opacity-50 " id="floatingInputValue">
+          <label for="floatingInputValue ">Digite a sua mensagem</label>
+        </form>
+      </div>
+
+      <div class="col-5">
+        <label for="FormControlTextarea2 form2 "></label>
+        <textarea class="form-control " id="FormControlTextarea2" rows="25"></textarea>
+      </div>
     </div>
   </div>
+
+  <!--checkbox radio-->
+
+  <div class="container  container-radio">
+    <div class="row">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          First radio
+        </label>
+      </div>
+      </label>
+    </div>
+    <div class="row">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Second radio
+        </label>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!--Button-->
+
   <div class="container">
-    <div class="form-group green-border-focus">
-      <label for="exampleFormControlTextarea2">Retorno da mensagem</label>
-      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+    <div class="row">
+      <div>
+        <button type="button" class="btn btn-info">Criptografar</button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-info">Descriptografar</button>
+      </div>
     </div>
   </div>
 
 
+  <!--Copyrights-->
+
+  <footer id="sticky-footer" class="flex-shrink-0 py-4 text-white-50">
+    <div class="container text-center">
+      <small> Made by Carme Fernandes</small>
+    </div>
+  </footer>
+
+  <!--
+  <div class="container">
+    <div class="form-group shadow-textarea  row align-items-start">
+      <label for="FormControlTextarea1">Escreva sua mensagem</label>
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+    </div>
+  </div>
+  <div class="container">
+    <div class="form-group green-border-focus  row align-items-start">
+      <label for="FormControlTextarea2">Retorno da mensagem</label>
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3"></textarea>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Default checkbox
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+      <label class="form-check-label" for="flexCheckChecked">
+        Checked checkbox
+      </label>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+  </div>
+-->
 
 
   <script src=" ./script.js">

@@ -1,3 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
 .img-logo {
   width: 50px;
   height: 50px;
@@ -5,4 +34,21 @@
 
 .form-group {
   margin-bottom: 20px;
+}
+
+.fa-brands {
+  color: #d99962;
+}
+
+.form-floating {
+  margin-top: 8em;
+}
+
+.container-radio {
+  margin: 2em;
+}
+
+.footer {
+  height: 100%;
+  width: 100%;
 }
